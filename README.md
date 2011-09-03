@@ -1,9 +1,14 @@
-Installing ComicAppBuilder
------------------------
+ComicAppBuilder
+=======================================================
 
-1. img フォルダの作成
-2. Sencha Touch SDK のインストール
-3. ビルド
+ComicAppBuilder is framework for easy create iPhone & iPad comic.
+
+[日本語マニュアル](https://github.com/ongaeshi/ComicAppBuilder/blob/master/README.ja.md)
+
+
+
+
+
 
 
 
