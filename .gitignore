@@ -4,3 +4,9 @@
 .DS_Store
 build
 www/phonegap.js
+
+.DS_Store
+.*~
+*~
+.#*
+*.bak

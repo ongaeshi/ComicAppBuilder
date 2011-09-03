@@ -1,10 +1,2 @@
-# global
-.DS_Store
-.*~
-*~
-.#*
-*.bak
-
-# dir
 image/
 
