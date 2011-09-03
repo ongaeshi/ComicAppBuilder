@@ -1,28 +1,26 @@
 //
 // @brief
 // @author ongaeshi
-// @date   2010/xx/xxxx
+// @date   2011/09/03
 
-// sample photo
-// const PARAM = {
-//   prefix: 'photo',
-//   page_num: 6,
-//   is_reverse: false
-// };
+// -- Basic Information --
+// iPhone  : 320x480
+// iPhone4 : 640x960
+// iPad    : 768x1024
 
-// sample comic(iPhone)
+// Sample PhotoViewer for iPhone(320x480)
+const PARAM = {
+  prefix: 'sample_photo/photo',
+  page_num: 6,
+  is_reverse: false
+};
+
+// Sample ComicViewer for iPad(768x1024)
 // const PARAM = {
-//   prefix: 'db24_iphone/',
-//   page_num: 186,
+//   prefix: 'sample_comic/',
+//   page_num: 10,
 //   is_reverse: true
 // };
-
-// sample comic(iPad)
-const PARAM = {
-  prefix: 'db24_ipad/',
-  page_num: 186,
-  is_reverse: true
-};
 
 function createPageData(no) {
   return {
