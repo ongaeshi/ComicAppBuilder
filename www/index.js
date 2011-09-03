@@ -27,7 +27,7 @@ const PARAM = {
 function createPageData(no) {
   return {
       title: 'page' + no,
-      html: '<img src="img/' + PARAM.prefix + no + '.jpg">'
+      html: '<img src="image/' + PARAM.prefix + no + '.jpg">'
   };
 }
 
