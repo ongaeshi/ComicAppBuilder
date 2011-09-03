@@ -11,6 +11,7 @@
 // Sample PhotoViewer for iPhone(320x480)
 const PARAM = {
   prefix: 'sample_photo/photo',
+  postfix: '.jpg',
   page_num: 6,
   is_reverse: false
 };
@@ -18,14 +19,15 @@ const PARAM = {
 // Sample ComicViewer for iPad(768x1024)
 // const PARAM = {
 //   prefix: 'sample_comic/',
-//   page_num: 10,
+//   postfix: '.png',
+//   page_num: 4,
 //   is_reverse: true
 // };
 
 function createPageData(no) {
   return {
       title: 'page' + no,
-      html: '<img src="image/' + PARAM.prefix + no + '.jpg">'
+      html: '<img src="image/' + PARAM.prefix + no + PARAM.postfix + '">'
   };
 }
 
