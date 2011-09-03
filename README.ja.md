@@ -55,9 +55,10 @@ $ rm -r docs/ examples/ jsbuilder/ pkgs/ src/ test/ *.html
 1. `ComicAppBuilder/` 以下に対して操作を行います。
 2. `www/image/` に、連番画像(1.jpg, 2.jpg, ....) をコピーします。
 3. `www/index.js` を編集します。
+4. XCodeでビルドしなおして、表示される画像が変われば成功です。
 
 ````javascript
-// www/image/test/ 以下に 1.jpg, 2.jpg ...10.jpg を置いた場合
+// 設定例 : www/image/test/ 以下に 1.jpg, 2.jpg ...10.jpg を置いた場合
 
 const PARAM = {
   prefix: 'test/',   // 連番画像の置き場所 (www/image/test/1.jpg -> 'test/' )
@@ -66,7 +67,6 @@ const PARAM = {
   is_reverse: false  // 右開きだったらtrue, 左開きだったらfalse
 };
 ````
-4. XCodeでビルドしなおして、表示される画像が変われば成功です。
 
 ## 作成者 ##
 
@@ -74,7 +74,9 @@ const PARAM = {
 
 ## ライセンス ##
 
-ComicAppBuilder は MIT License です、無保証ですが改変等はご自由にどうぞ。PhoneGap, Sencha Touch SDK については各ライブラリのライセンスに従って下さい。
+ComicAppBuilder は MIT License です、無保証ですが改変等はご自由にどうぞ。
+
+PhoneGap, Sencha Touch SDK については各ライブラリのライセンスに従って下さい。
 
 ## コミックアプリビルダーを使って何か作ったら・・・ ##
 
