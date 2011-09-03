@@ -22,7 +22,7 @@ ComicAppBuilder
 
 1. PhonGap のインストール
 2. Sencha Touch SDK のダウンロード
-3. 最新の ComicAppBuilder をチェックアウト
+3. 最新の ComicAppBuilder をチェックアウト (もしくは[最新のアーカイブ](https://github.com/ongaeshi/ComicAppBuilder/tarball/master)をダウンロード)
 4. Sencha Touch SDK を `ComicAppBuilder/www/lib/touch/` にコピー
 
 ````shell
