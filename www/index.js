@@ -10,10 +10,10 @@
 
 // Sample PhotoViewer for iPhone(320x480)
 const PARAM = {
-  prefix: 'sample_photo/photo',
-  suffix: '.jpg',
-  page_num: 6,
-  is_reverse: false
+  prefix: 'sample_photo/photo', // 連番画像の置き場所 (www/image/test/1.jpg -> 'test/' )
+  suffix: '.jpg',               // '.jpg' or '.png'
+  page_num: 6,                  // 画像の枚数 [1.jpg, 2.jpg, ...6.jpg] だったら 6
+  is_reverse: false             // 右開きだったらtrue, 左開きだったらfalse
 };
 
 // Sample ComicViewer for iPad(768x1024)
