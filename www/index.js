@@ -48,6 +48,7 @@ Ext.setup({
       items: items
     });
 
-    rootPanel.setActiveItem(PARAM.page_num - 1);
+    if (PARAM.is_reverse)
+      rootPanel.setActiveItem(PARAM.page_num - 1);
   }
 });
